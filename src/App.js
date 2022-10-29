@@ -43,7 +43,13 @@ const App = () => {
         </section>
 
         <section className="social">
+          <a href="#dycodes" className="social-link">
+            <img src={slackIcon} alt="slack" />
+          </a>
 
+          <a href="https://github.com/dycodes" className="social-link">
+            <img src={github} alt="github" />
+          </a>
         </section>
       </main>
 

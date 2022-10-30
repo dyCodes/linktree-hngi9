@@ -7,7 +7,7 @@ const Header = () => {
     <header>
       <img id="profile_img" src={profile} alt="Yusuf Daudu" />
       <h1 id="twitter" className="username">dyCodes</h1>
-      <p id="slack" hidden>dyCodes</p>
+      <p id="slack" hidden>dycodes</p>
 
       <div className="share-button">
         <img src={shareIcon} className="pc" alt="share" />

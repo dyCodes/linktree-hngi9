@@ -4,7 +4,7 @@ import github from "../assets/github-icon.png";
 const Social = () => {
   return (
     <section className="social">
-      <a href="#dyCodes" className="social-link">
+      <a href="#dycodes" className="social-link">
         <img src={slackIcon} alt="slack" />
       </a>
 

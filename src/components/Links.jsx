@@ -6,7 +6,7 @@ const Links = () => {
       <ButtonLink id="btn__zuri" url="https://training.zuri.team/" text="Zuri Team" />
       <ButtonLink id="books" url="https://books.zuri.team/" text="Zuri Books" />
       <ButtonLink id="book__python"
-        url="https://books.zuri.team/python-for-beginners?ref_id=dyCodes" text="Python Books" />
+        url="https://books.zuri.team/python-for-beginners?ref_id=dycodes" text="Python Books" />
       <ButtonLink id="pitch" url="https://background.zuri.team/" text="Background Check for Coders" />
       <ButtonLink id="book__design" url="https://books.zuri.team/design-rules" text="Design Books" />
     </div >

@@ -40,6 +40,15 @@ header {
   font-size: 24px;
 }
 
+.share-button {
+  position: absolute;
+  right: 8px;
+  top: 6px;
+}
+.share-button img.mobile {
+  display: none;
+}
+
 .btn.link {
   display: block;
   padding: 18px;
@@ -77,6 +86,14 @@ footer p {
 }
 
 @media screen and (max-width: 786px) {
+  .share-button img.pc {
+    display: none;
+  }
+
+  .share-button img.mobile {
+    display: block;
+  }
+
   footer p {
     margin: 32px 0;
   }

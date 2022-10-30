@@ -11,29 +11,73 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-.App {
-  text-align: center;
-  max-width: 860px;
-  margin: auto;
-  padding: 24px 12px;
-}
-
-main {
-  margin: 40px 0;
-}
-
-footer {
-  display: flex;
-  padding: 12px;
-  border-top: 1px solid #ccc;
-  justify-content: space-between;
-}
 a {
   text-decoration: none;
 }
 
+.App {
+  text-align: center;
+  margin: auto;
+  padding: 24px;
+  padding-bottom: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 60px auto;
+}
+
+header {
+  position: relative;
+}
+
+#profile_img {
+  padding: 16px;
+}
+
+.username {
+  font-weight: 700;
+  font-size: 24px;
+}
+
 .btn.link {
   display: block;
-  padding: 16px;
+  padding: 18px;
   width: 100%;
+  color: #101828;
+  font-size: 18px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  background: #eaecf0;
+  transition: all 0.4s;
+}
+
+.btn.link:hover {
+  background: #c3c5ca;
+}
+
+.social {
+  padding-top: 24px;
+}
+.social-link {
+  margin: 0 10px;
+  padding: 6px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 35px 0;
+  border-top: 1px solid #ccc;
+}
+footer p {
+  color: #667085;
+}
+
+@media screen and (max-width: 786px) {
+  footer p {
+    margin: 32px 0;
+  }
 }

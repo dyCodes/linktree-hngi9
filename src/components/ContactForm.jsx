@@ -11,7 +11,7 @@ const ContactForm = () => {
     if (form.checkValidity() === true) {
       event.stopPropagation();
       alert("Message Sent!");
-      window.location.reload(false);
+      window.location.href = "/";
     }
     setValidated(true);
   };

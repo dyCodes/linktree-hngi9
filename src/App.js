@@ -1,20 +1,17 @@
-import Header from "./components/Header";
-import Links from "./components/Links";
-import Social from "./components/Social";
-import Footer from "./components/Footer";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Contact from "./pages/Contact";
+import Home from "./pages/Home";
+import PageNotFound from "./pages/PageNotFound";
 
 const App = () => {
   return (
-    <div className="App">
-      <Header />
-
-      <section className="container">
-        <Links />
-        <Social />
-      </section>
-
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="*" element={<PageNotFound />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 

@@ -5,13 +5,13 @@ import Footer from "../components/Footer";
 
 const Home = () => {
   return (
-    <div className="App">
+    <div className="home">
       <Header />
 
-      <section className="container">
+      <main>
         <Links />
         <Social />
-      </section>
+      </main>
 
       <Footer />
     </div>

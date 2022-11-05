@@ -9,6 +9,7 @@ const Links = () => {
         url="https://books.zuri.team/python-for-beginners?ref_id=dycodes" text="Python Books" />
       <ButtonLink id="pitch" url="https://background.zuri.team/" text="Background Check for Coders" />
       <ButtonLink id="book__design" url="https://books.zuri.team/design-rules" text="Design Books" />
+      <ButtonLink id="contact" url="/contact" text="Contact Me" />
     </div >
   )
 }
